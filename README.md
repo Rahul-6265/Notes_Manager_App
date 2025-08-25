@@ -6,7 +6,7 @@ This is a simple and clean **Personal Notes Manager** built using **React**. The
 
 ## 🔗 Live Demo
 
-👉 [Click here to view the live app](https://rahul-6265.github.io/notes-manager/)
+👉 [Click here to view the live app]()
 
 ---
 

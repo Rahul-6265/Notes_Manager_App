@@ -128,9 +128,11 @@ padding: 12px 25px;
 /* Dark mode styles */
 .dark {
   background-color: #1e1e1e;
+  /* color: #f0f0f0; */
+}
+.dark h1{
   color: #f0f0f0;
 }
-
 .dark input,
 .dark textarea {
   background-color: #333;
