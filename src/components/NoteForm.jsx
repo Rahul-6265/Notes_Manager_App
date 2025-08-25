@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 function NoteForm({ onAdd, editData }) {
-  const [title, setTitle] = useState('');
-  const [content, setContent] = useState('');
+  const [title, setTitle] = useState("");
+  const [content, setContent] = useState("");
 
   useEffect(() => {
     if (editData) {
@@ -15,8 +15,8 @@ function NoteForm({ onAdd, editData }) {
     e.preventDefault();
     if (title.trim() && content.trim()) {
       onAdd({ title, content });
-      setTitle('');
-      setContent('');
+      setTitle("");
+      setContent("");
     }
   };
 
@@ -33,9 +33,7 @@ function NoteForm({ onAdd, editData }) {
         value={content}
         onChange={(e) => setContent(e.target.value)}
       ></textarea>
-      <button type="submit">
-        {editData ? 'Update Note' : 'Add Note'}
-      </button>
+      <button type="submit">{editData ? "Update Note" : "Add Note"}</button>
     </form>
   );
 }

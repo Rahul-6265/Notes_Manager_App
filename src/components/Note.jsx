@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Note({ note, index, onDelete, onEdit }) {
   return (
